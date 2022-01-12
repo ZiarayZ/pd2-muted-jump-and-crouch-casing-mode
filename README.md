@@ -4,4 +4,4 @@ The same as Dr_Newbie's but mutes the "No suspicious actions allowed in casing m
 Original: https://modworkshop.net/mod/21592
 
 WARNING:<br>
-Any mod that hooks onto the check jump and check duck methods in PlayerMaskOff is incompatible.<br>
+Any mod that hooks onto the check jump and check duck methods in PlayerMaskOff should be incompatible.<br>
