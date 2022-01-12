@@ -1,0 +1,16 @@
+{
+	"name":"Jump and Duck in Casing Mode",
+	"description":"Enables jumping and ducking in casing mode. Mutes the no suspicious actions allowed notification when doing so.",
+	"author":"ZiarayZ, Dr_Newbie",
+	"contact":"ZiarayZ#0095 via Discord",
+	"version":"2",
+	"color": "40 40 255",
+	"blt_version": 2,
+	"image": "mod.png",
+	"hooks" :
+	[
+		{	"hook_id":"lib/units/beings/player/states/playermaskoff",
+		 	"script_path":"hints.lua"
+		}
+	]
+}
