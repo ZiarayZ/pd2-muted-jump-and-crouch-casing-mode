@@ -5,10 +5,6 @@ function PlayerMaskOff:_check_action_jump(t, input)
 	
 end
 
-function PlayerMaskOff:_check_action_duck(t, input)
-	
-end
-
 --hooks to add jumping and ducking, based off Dr_Newbie
 Hooks:PostHook(PlayerMaskOff, "_check_action_jump", "CheckJump", function(self, t, input)
 	if input.btn_jump_press then
